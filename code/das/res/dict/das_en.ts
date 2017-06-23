@@ -48,12 +48,36 @@
         <translation>Select Curve</translation>
     </message>
 	<message>
-        <source>Ok</source>
-        <translation>Ok</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 	<message>
         <source>Cancel</source>
         <translation>Cancel</translation>
+    </message>
+	<message>
+        <source>Begin time</source>
+        <translation>Begin time</translation>
+    </message>
+	<message>
+        <source>End time</source>
+        <translation>End time</translation>
+    </message>
+	<message>
+        <source>Property</source>
+        <translation>Property</translation>
+    </message>
+	<message>
+        <source>Title</source>
+        <translation>Title</translation>
+    </message>
+	<message>
+        <source>Channel</source>
+        <translation>Channel</translation>
+    </message>
+	<message>
+        <source>Time axis already exists!</source>
+        <translation>Time axis already exists!</translation>
     </message>
 </context>
 <context>
@@ -128,7 +152,7 @@
     </message>
     <message>
         <source>Timeline</source>
-        <translation>Timeline</translation>
+        <translation>Time axis</translation>
     </message>
     <message>
         <source>Video</source>
@@ -153,22 +177,10 @@
 	<message>
         <source>Slow play</source>
         <translation>Slow play</translation>
-    </message>
+    </message>		
 	<message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-	<message>
-        <source>Cancel</source>
-        <translation>Cancel</translation>
-    </message>
-	<message>
-        <source>Begin time</source>
-        <translation>Begin time</translation>
-    </message>
-	<message>
-        <source>End time</source>
-        <translation>End time</translation>
+        <source>step</source>
+        <translation>step</translation>
     </message>
 </context>
 </TS>

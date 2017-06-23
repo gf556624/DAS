@@ -48,12 +48,36 @@
         <translation>选择曲线</translation>
     </message>
 	<message>
-        <source>Ok</source>
+        <source>OK</source>
         <translation>确定</translation>
     </message>
 	<message>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+	<message>
+        <source>Begin time</source>
+        <translation>开始时间</translation>
+    </message>
+	<message>
+        <source>End time</source>
+        <translation>结束时间</translation>
+    </message>
+	<message>
+        <source>Property</source>
+        <translation>属性</translation>
+    </message>
+	<message>
+        <source>Title</source>
+        <translation>名称</translation>
+    </message>
+	<message>
+        <source>Channel</source>
+        <translation>通道</translation>
+    </message>
+	<message>
+        <source>Time axis already exists!</source>
+        <translation>时间轴已存在！</translation>
     </message>
 </context>
 <context>
@@ -153,22 +177,10 @@
 	<message>
         <source>Slow play</source>
         <translation>减慢播放</translation>
-    </message>
+    </message>	
 	<message>
-        <source>OK</source>
-        <translation>确定</translation>
-    </message>
-	<message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-	<message>
-        <source>Begin time</source>
-        <translation>开始时间</translation>
-    </message>
-	<message>
-        <source>End time</source>
-        <translation>结束时间</translation>
+        <source>step</source>
+        <translation>播放速率</translation>
     </message>
 </context>
 </TS>

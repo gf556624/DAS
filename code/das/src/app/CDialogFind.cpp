@@ -13,14 +13,14 @@ const char* cstDictBeginTime = "Begin time";       // 开始时间
 const char* cstDictEndTime = "End time";           // 结束时间 
 
 
-CDialogFind::CDialogFind(QWidget *parent)
+CDialogFind::CDialogFind(const QDateTime& dtBegin, const QDateTime& dtEnd, QWidget *parent)
     : QDialog(parent)
 {
-    setWindowTitle(trFormString(cstDictFind));
+    setWindowTitle(trMenuString(cstDictFind));
     resize(300, 150);
 
-    m_dtBegin = QDateTime::currentDateTime();
-    m_dtEnd = m_dtBegin;
+    m_dtBegin = dtBegin;
+    m_dtEnd = dtEnd;
 
     QLabel* pTimeBeginLabel = new QLabel(this);
     pTimeBeginLabel->setText(trFormString(cstDictBeginTime));
@@ -28,6 +28,7 @@ CDialogFind::CDialogFind(QWidget *parent)
 
     m_pEditBegin = new QDateTimeEdit(this);
     m_pEditBegin->setDateTime(m_dtBegin);
+    m_pEditBegin->setDisplayFormat("yyyy/MM/dd hh:mm:ss");
 
     QLabel* pTimeEndLabel = new QLabel(this);
     pTimeEndLabel->setText(trFormString(cstDictEndTime));
@@ -35,6 +36,7 @@ CDialogFind::CDialogFind(QWidget *parent)
 
     m_pEditEnd = new QDateTimeEdit(this);
     m_pEditEnd->setDateTime(m_dtEnd);
+    m_pEditEnd->setDisplayFormat("yyyy/MM/dd hh:mm:ss");
 
     QPushButton* pOkBtn = new QPushButton(trFormString(cstDictOK));
     pOkBtn->setDefault(true);
