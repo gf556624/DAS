@@ -7,6 +7,54 @@
         <source>DAS</source>
         <translation>数据分析器</translation>
     </message>
+	<message>
+        <source>Save screenshot</source>
+        <translation>保存截图</translation>
+    </message>
+	<message>
+        <source>Select direction</source>
+        <translation>选择路径</translation>
+    </message>
+	<message>
+        <source>Space/Enter key enter screenshots</source>
+        <translation>Space/Enter键 确认截屏</translation>
+    </message>
+	<message>
+        <source>ESCAPE/Alt+F4 key cancel screenshots</source>
+        <translation>ESCAPE/Alt+F4键 取消截屏</translation>
+    </message>
+	<message>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+	<message>
+        <source>Export Success!</source>
+        <translation>导出成功!</translation>
+    </message>
+	<message>
+        <source>Export Failed!</source>
+        <translation>导出失败!</translation>
+    </message>
+	<message>
+        <source>Tips</source>
+        <translation>提示</translation>
+    </message>
+	<message>
+        <source>Export excel</source>
+        <translation>导出</translation>
+    </message>
+	<message>
+        <source>Select Curve</source>
+        <translation>选择曲线</translation>
+    </message>
+	<message>
+        <source>Ok</source>
+        <translation>确定</translation>
+    </message>
+	<message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
 </context>
 <context>
     <name>MENU</name>
@@ -67,6 +115,10 @@
         <translation>关于</translation>
     </message>
     <message>
+        <source>Standard tool bar</source>
+        <translation>标准工具栏</translation>
+    </message>
+    <message>
         <source>Operator tool bar</source>
         <translation>操作工具栏</translation>
     </message>
@@ -89,6 +141,34 @@
     <message>
         <source>Table</source>
         <translation>数据表</translation>
+    </message>
+	<message>
+        <source>Screenshot</source>
+        <translation>截屏</translation>
+    </message>
+	<message>
+        <source>Fast play</source>
+        <translation>加快播放</translation>
+    </message>
+	<message>
+        <source>Slow play</source>
+        <translation>减慢播放</translation>
+    </message>
+	<message>
+        <source>OK</source>
+        <translation>确定</translation>
+    </message>
+	<message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+	<message>
+        <source>Begin time</source>
+        <translation>开始时间</translation>
+    </message>
+	<message>
+        <source>End time</source>
+        <translation>结束时间</translation>
     </message>
 </context>
 </TS>

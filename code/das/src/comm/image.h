@@ -15,6 +15,16 @@
 #define IMG_VIDEO           ":/images/video.png"
 #define IMG_CURVE           ":/images/curve.png"
 #define IMG_TABLE           ":/images/table.png"
+#define IMG_TIMELINE_DISABLE ":/images/timeline_disable.png"
+#define IMG_VIDEO_DISABLE    ":/images/video_disable.png"
+#define IMG_CURVE_DISABLE    ":/images/curve_disable.png"
+#define IMG_TABLE_DISABLE    ":/images/table_disable.png"
 
+#define IMG_ENGLISH         ":/images/english.png"
+#define IMG_CHINESE         ":/images/chinese.png"
+
+#define IMG_SCREENSHOT      ":/images/screen_shot.png"
+#define IMG_PLAYFAST        ":/images/play_fast.png"
+#define IMG_PLAYSLOW        ":/images/play_slow.png"
 
 #endif // IMAGE_H

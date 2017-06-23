@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>images/logo.png</file>
         <file>images/curve.png</file>
         <file>images/exit.png</file>
         <file>images/find.png</file>
@@ -14,5 +13,15 @@
         <file>images/timeline.png</file>
         <file>images/video.png</file>
         <file>images/about.png</file>
+        <file>images/chinese.png</file>
+        <file>images/english.png</file>
+        <file>images/timeline_disable.png</file>
+        <file>images/video_disable.png</file>
+        <file>images/curve_disable.png</file>
+        <file>images/table_disable.png</file>
+        <file>images/screen_shot.png</file>
+        <file>images/play_fast.png</file>
+        <file>images/play_slow.png</file>
+        <file>images/logo.png</file>
     </qresource>
 </RCC>

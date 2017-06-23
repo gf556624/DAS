@@ -4,7 +4,12 @@
 #include "QtWidgets/QMainWindow"
 #include "QtCore/QTranslator"
 #include "CGraphicsView.h"
+#include "CPropertyBar.h"
 
+class CToolBar;
+class QLabel;
+class QCheckBox;
+class CSelectedArea;
 
 class DAS : public QMainWindow
 {
@@ -20,6 +25,7 @@ private:
 
 protected:
     virtual void changeEvent(QEvent *ev);
+    virtual void keyReleaseEvent(QKeyEvent *ev);
 
 private:
     QAction* m_pActOpen;
@@ -30,10 +36,15 @@ private:
     QAction* m_pActZhCn;
     QAction* m_pActEn;
     QAction* m_pActAbout;
-    QAction* m_pActTimeline;
-    QAction* m_pActVideo;
-    QAction* m_pActCurve;
-    QAction* m_pActTable;
+    QAction* m_pActScreenshot;
+    QAction* m_pActPlayFast;
+    QAction* m_pActPlaySlow;
+
+    QLabel* m_pLbTimeAxis;
+    QLabel* m_pLbVideo;
+    QLabel* m_pLbCurve;
+    QLabel* m_pLbTable;
+    QCheckBox* m_pCBoxEdit;
 
     QMenu* m_pMenuFile;
     QMenu* m_pMenuEdit;
@@ -42,13 +53,17 @@ private:
     QMenu* m_pMenuLanuage;
     QMenu* m_pMenuHelp;
 
+    QToolBar* m_pStandardToolBar;
     QToolBar* m_pOperatorToolBar;
-    QToolBar* m_pModuleToolBar;
+    CToolBar* m_pModuleToolBar;
 
     QTranslator m_translator;
+    CSelectedArea* m_pSelectedArea;  // 截屏区域 
 
+    bool m_bPlay;       // 控制播放与暂停的flag 
 private:
     CGraphicsView* m_pGraphicsView;
+    CPropertyBar* m_pPropertyBar;
 
 private slots:
     void OnOpen();
@@ -57,6 +72,14 @@ private slots:
     void OnFullScreen();
     void OnLanuageChanged(QAction* pAction);
     void OnAbout();
+
+    void OnScreenshot();
+    void OnPlayFast();
+    void OnPlaySlow();
+    void OnScreenShotAreaSelected(const QRect& rect);
+
+    void OnEditCheckBoxStateChanged(int state);
+
 };
 
 #endif // SMS_H
